@@ -1,0 +1,58 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.text-green {
+    color: #80CFA9;
+}
+
+.text-green:hover {
+    background-color: #80CFA9;
+}
+
+.border-green {
+    border-color: #80CFA9;
+}
+
+.delete-item, .delete-item:hover {
+    color: #D62828;
+    cursor:pointer;
+}
+
+.edit-item, .edit-item:hover {
+    color: #11B5E4;
+    cursor:pointer;
+}
+
+.check-item {
+    color: #80CFA9;
+    outline: none;
+}
+
+.check-item:hover {
+    color: #80CFA9;
+    cursor:pointer;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.btn:focus, .todo-input:focus {
+    box-shadow: none;
+    
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .far {
+        font-size: 0.875em;
+    }
+
+    .todo-item {
+        font-size: 14px;
+    }
+}
+
